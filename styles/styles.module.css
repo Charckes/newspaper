@@ -1,0 +1,21 @@
+.artigo{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background: rgb(248, 248, 248);
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+.artigo:hover{
+    transform: scale(110%);
+}
+
+
+.img{
+    width: 100%;
+    border-radius: 10px;
+}
